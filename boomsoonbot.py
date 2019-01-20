@@ -5,8 +5,8 @@ import time
 def botlogin():
     #logs in to reddit, using the username and password, which has been redacted
     print("Logging in...")
-    r = praw.Reddit(client_id = 'ZSz_-H9B0mBB-w',
-                client_secret = '3R-EQ6Gr9nLkp2Plyz-So1ymxKA',
+    r = praw.Reddit(client_id = '#redacted',
+                client_secret = '#redacted',
                 password = '#redacted',
                 username = 'BoomSoonBot',
                 user_agent = 'test')
